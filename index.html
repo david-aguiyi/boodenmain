@@ -30,13 +30,39 @@
         </nav>
         <nav class="navbar">
             <div class="navdiv">
-                <div class="logo"><a href="#">CodingNinja</a></div>
+                <div class="logo">
+                    <a href="#"
+                        ><img class="blue" src="images/bluepng.png" alt=""
+                    /></a>
+                </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <button><a href="#">SignIn</a></button>
-                    <button><a href="#">SignUp</a></button>
+                    <li>
+                        <a href="#">
+                            <img
+                                class="icon"
+                                src="images/telegram.png"
+                                alt=""
+                            />
+                            <p>Home</p></a
+                        >
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="icon" src="images/twitter.png" alt="" />
+                            <p>Twitter</p></a
+                        >
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img
+                                class="icon"
+                                src="images/multiple-users-silhouette.png"
+                                alt=""
+                            />
+                            <p>Community</p></a
+                        >
+                    </li>
+                    <button><a href="#">BUY BOODEN</a></button>
                 </ul>
             </div>
         </nav>
@@ -91,242 +117,449 @@
                     src="images/[removal.ai]_d07ae735-9977-4b84-ae52-73b75e3f1a9f-untitled-design.png"
                     alt=""
                 />
-                <span class="sniff">sniff</span><span>sniff</span> <span>sniff</span>
-                <span>sniff</span>
+                <div class="sniffers">
+                    <span class="sniff">SNIFF</span
+                    ><span class="sniff5">SNIFF</span
+                    ><span class="sniff2">SNIFF</span>
+                    <span class="sniff3">SNIFF</span>
+                    <span class="sniff4">SNIFF</span>
+                </div>
             </section>
-
-            <!--Features-->
-            <section class="section-2">
-                <div class="features">
-                    <h1>What our system is built for</h1>
-                    <img
-                        src="images/purple half.png"
-                        alt=""
-                        class="right-img"
+            <section class="contract-address">
+                <div class="contract2">
+                    <label for="contractAddress">CA:</label>
+                    <input
+                        type="text"
+                        id="contractAddress"
+                        value="0x1234567890abcdef1234567890abcdef12345678"
+                        readonly
                     />
-                    <div class="feat feat1">
-                        <img
-                            data-aos="fade-up"
-                            class="hero-p2p"
-                            src="images/icon-1.svg"
-                            alt="p2p"
-                        />
-                        <h4 data-aos="fade-up">Peer to Peer Commerce</h4>
-                        <p data-aos="fade-up" class="p2p">
-                            We protect buyers and service providers by ensuring
-                            terms and conditions are completely met before
-                            settlement.
-                        </p>
+                    <p>0x1234567890abcdef1234567890abcdef12345678</p>
+                    <button id="copyButton" onclick="copyAddress()">
+                        Copy
+                    </button>
+                </div>
+            </section>
+            <section>
+                <div class="marquee">
+                    <div class="marquee-content">
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
                     </div>
-                    <div class="feat feat2">
-                        <img
-                            data-aos="fade-up"
-                            class="hero-rug"
-                            src="images/icon-2.svg"
-                            alt=""
-                        />
-                        <h4 class="hpull" data-aos="fade-up">
-                            Anti Rug-Pull Services
-                        </h4>
-                        <p data-aos="fade-up" class="rug">
-                            We protect investors by moderating project launches,
-                            we do this by escrowing funds and releasing funds as
-                            project achieve their milestones, this is 100%
-                            decided by their community. We refund holders if
-                            projects fail to deliver as planned.
-                        </p>
+                    <div class="marquee-content">
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
                     </div>
-                    <div class="feat feat3">
-                        <img
-                            data-aos="fade-up"
-                            src="images/icon-3.svg"
-                            alt=""
-                            class="hero-holders"
-                        />
-                        <h4 data-aos="fade-up">NFT holders</h4>
-                        <p data-aos="fade-up" class="holders">
-                            Back your transactions with your NFTs, instead of
-                            holding down your funds, only pay when order is
-                            confirmed. Get loans using your NFTs as collateral.
-                        </p>
-                    </div>
-                    <img src="images/orange-half.png" alt="" class="left-img" />
                 </div>
             </section>
 
-            <!--P2P Loans-->
             <section class="section-3">
                 <div>
                     <span id="backlight-3"></span>
                     <img
                         data-aos="fade-left"
                         class="commerce"
-                        src="images/p2p-loans.png"
+                        src="images/[removal.ai]_d07ae735-9977-4b84-ae52-73b75e3f1a9f-untitled-design.png"
                         alt="commerce"
                     />
                 </div>
                 <div data-aos="fade-left" class="p2p-loans">
-                    <b><span> P2P </span> Loan</b>
+                    <b><span> ABOUT </span></b>
                     <div class="p2p-info">
                         <p>
-                            Use your NFTs as collateral to borrow crypto assets
-                            or deposit crypto assets get lenders to your loan
-                            request listing.
+                            Introducing Boden, the 46th President of The USA!
+                            From sniffing people to the occasional slip-up in
+                            the pants, Boden keeps us entertained and reminds us
+                            not to take life too seriously. Join the movement
+                            today and be part of the fun! Your support in 2024
+                            helps us continue spreading laughter and building a
+                            community where everyone MAKES MONEY.
+                            <span> #JeoBoden #Boden4pres</span>
                         </p>
-                    </div>
-                    <div class="check">
-                        <ul>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>No KYC</p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>Select a supply pool or lender</p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>Receive funds in your wallet instantly</p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>
-                                    Unlock higher loan amounts and lower
-                                    interest rates by repaying loans on time
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="button">
-                        <button>Start now</button>
                     </div>
                 </div>
             </section>
-            <hr class="section-line" />
+            <!--Features-->
+            <section class="section-2">
+                <div class="features">
+                    <h1>How to Buy</h1>
 
-            <!--NFT Insurance-->
-            <section class="section-4">
-                <div id="backlight-4"></div>
-                <div id="img">
-                    <img
-                        data-aos="fade-right"
-                        class="nft"
-                        src="images/nft-insurance.png"
-                        alt="nft-insurance"
-                    />
-                </div>
-                <div data-aos="fade-right" class="nft-insur">
-                    <b> NFT <span> Insurance </span> </b>
-                    <div class="nft-info">
-                        <p>
-                            Why insure your car, house, art and not insure your
-                            NFT? We offer best rates and insure against:
+                    <div class="feat feat1">
+                        <h2 class="h2-feat">1</h2>
+                        <h4 data-aos="fade-up">Create A Wallet</h4>
+                        <p data-aos="fade-up" class="p2p">
+                            Download OKX wallet or your wallet of choice from
+                            the app store or Google Play for free. Desktop
+                            users, download your browser's extension by going to
+                            OKX or Phantom.
                         </p>
                     </div>
-                    <div class="check">
-                        <ul>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>Theft</p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>Rug Pull</p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>Heavy price drop</p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>Theft (Fixed) cover</p>
-                            </li>
-                        </ul>
+                    <div class="feat feat2">
+                        <h2 class="h2-feat">2</h2>
+                        <h4 class="hpull" data-aos="fade-up">Get some $SOL</h4>
+                        <p data-aos="fade-up" class="rug">
+                            Have $SOL in your wallet to switch to $BODEN. If you
+                            don’t have any $SOL, you can buy directly on
+                            Phantom, transfer from another wallet, or buy on
+                            another exchange and send it to your wallet.
+                        </p>
                     </div>
-                    <div class="button">
-                        <button>Get insured</button>
+                    <div class="feat feat3">
+                        <h2 class="h2-feat">3</h2>
+                        <h4 data-aos="fade-up">Go to OKX DEX</h4>
+                        <p data-aos="fade-up" class="holders">
+                            Connect to OKX decentralized exchange. Go to OKX in
+                            your browser. Connect your wallet. Paste the $BODEN
+                            token address into OKX, select $BODEN, and confirm.
+                            When Then you get a prompt for a wallet signature,
+                            sign.
+                        </p>
                     </div>
                 </div>
             </section>
-            <hr class="section-line" />
+            <section class="image-marquee">
+                <div class="marquee">
+                    <div class="marquee-content">
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <!-- <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span>
+                        <span>$BOODENONBASE</span> -->
+                    </div>
+                    <div class="marquee-content">
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                        <span
+                            ><img
+                                class="small-usa"
+                                src="images/usa.avif"
+                                alt=""
+                        /></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tokenomics">
+                <h1>TOKENOMICS</h1>
+                <div class="token">
+                    <div class="burn">
+                        <img class="burnimg" src="images/burn.avif" alt="" />
+                        <p>LP Burnt</p>
+                    </div>
+                    <div class="mint">
+                        <img class="mintimg" src="images/mint.avif" alt="" />
+                        <p>Mint Revoked</p>
+                    </div>
+                    <div class="tax">
+                        <img class="taximg" src="images/tax.avif" alt="" />
+                        <p>0% Tax</p>
+                    </div>
+                </div>
+            </section>
+            <div class="donate commerce">
+                <b><span>Donate </span> </b>
+                <div class="donatep">
+                    <p class="commerce-info">
+                        This wallet belongs to the Jeo Boden treasury and
+                        community alike. Any funds donated will be put towards
+                        marketing, listings, giveaways, etc. Thank you for
+                        believing in this community. Let's bild bek better
+                    </p>
+                </div>
+                <div class="contract-address">
+                    <div class="contract">
+                        <label for="contractAddress">CA:</label>
+                        <input
+                            type="text"
+                            id="newcontractAddress"
+                            value="0x1234567890abcdef1234567890abcdef1245679"
+                            readonly
+                        />
+                        <p>0x1234567890abcdef1234567890abcdef1234567jp</p>
+                        <button id="copyButton2" onclick="copyAddress2()">
+                            Copy
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <section class="memes">
+                <h1>MEMES</h1>
+                <div class="marquee2">
+                    <div class="content2">
+                        <div class="img-border">
+                            <img src="images/meme1.jpg" alt="Image 1" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/meme2.jpg" alt="Image 2" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m3.jpg" alt="Image 3" />
+                        </div>
+
+                        <div class="img-border">
+                            <img src="images/m5.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m6.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m7.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m8.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m9.jpg" alt="" />
+                        </div>
+                        <!-- Duplicate the images for continuous scrolling -->
+                        <div class="img-border">
+                            <img src="images/meme1.jpg" alt="Image 1" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/meme2.jpg" alt="Image 2" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m3.jpg" alt="Image 3" />
+                        </div>
+
+                        <div class="img-border">
+                            <img src="images/m5.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m6.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m7.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m8.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m9.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marquee3">
+                    <div class="content3">
+                        <div class="img-border">
+                            <img src="images/meme1.jpg" alt="Image 1" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/meme2.jpg" alt="Image 2" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m3.jpg" alt="Image 3" />
+                        </div>
+
+                        <div class="img-border">
+                            <img src="images/m5.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m6.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m7.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m8.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m9.jpg" alt="" />
+                        </div>
+                        <!-- Duplicate the images for continuous scrolling -->
+                        <div class="img-border">
+                            <img src="images/meme1.jpg" alt="Image 1" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/meme2.jpg" alt="Image 2" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m3.jpg" alt="Image 3" />
+                        </div>
+
+                        <div class="img-border">
+                            <img src="images/m5.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m6.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m7.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m8.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m9.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marquee2">
+                    <div class="content2">
+                        <div class="img-border">
+                            <img src="images/meme1.jpg" alt="Image 1" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/meme2.jpg" alt="Image 2" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m3.jpg" alt="Image 3" />
+                        </div>
+
+                        <div class="img-border">
+                            <img src="images/m5.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m6.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m7.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m8.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m9.jpg" alt="" />
+                        </div>
+                        <!-- Duplicate the images for continuous scrolling -->
+                        <div class="img-border">
+                            <img src="images/meme1.jpg" alt="Image 1" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/meme2.jpg" alt="Image 2" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m3.jpg" alt="Image 3" />
+                        </div>
+
+                        <div class="img-border">
+                            <img src="images/m5.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m6.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m7.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m8.jpg" alt="" />
+                        </div>
+                        <div class="img-border">
+                            <img src="images/m9.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!--SMART ROI-->
-            <section class="section-5">
-                <div id="backlight-4"></div>
-                <div id="img">
-                    <img
-                        data-aos="fade-left"
-                        class="smart"
-                        src="images/smart-roi.png"
-                        alt="smart-roi"
-                    />
-                </div>
-                <div class="smart-1">
-                    <b> Smart <span> ROI </span> </b>
-                    <div class="smart-info">
-                        <p>We offer market-leading returns on investment</p>
-                    </div>
-                    <div class="check checksmart">
-                        <ul>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>
-                                    Support companies and earn from the profits
-                                </p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>
-                                    Supply funds to borrowers, and earn on your
-                                    terms
-                                </p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>Supply loan pool and earn immediately</p>
-                            </li>
-                            <li>
-                                <img src="images/check-dark.svg" alt="check" />
-                                <p>
-                                    100% safe, all loans secured by NFTS or
-                                    crypto assets
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="smart-button">
-                        <button>Start investing</button>
-                    </div>
-                </div>
-            </section>
-            <hr class="section-line" />
 
             <!--Decentralized Commerce-->
-            <section class="section-6 commerce">
-                <div id="backlight-4"></div>
-                <div id="img">
-                    <img
-                        id="comm"
-                        class="commerce"
-                        src="images/dCommerce.png"
-                        alt="Decentralised-commerce"
-                    />
-                </div>
-                <div>
-                    <b> Decentralised <span> Commerce </span> </b>
-                    <div>
-                        <p class="p2">Protecting buyers and sellers</p>
-                        <p class="commerce-info">
-                            All buyers and sellers are 100% protected. No more
-                            scams, only pay for quality delivery. All disputes
-                            are resolved by third-party moderators. Source and
-                            buy general merchandise, freelance professional
-                            services, physical goods, NFTs, domain names,
-                            electronics and more.
-                        </p>
-                    </div>
-                </div>
-            </section>
+
             <hr class="section-line" />
 
             <!--P2P-Exchange-->
