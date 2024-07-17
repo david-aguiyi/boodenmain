@@ -12,7 +12,7 @@
 }
 
 :root {
-    --green-color: #88e900;
+    --green-color: #2723FF;
     --font-family: Comic;
 }
 
@@ -41,7 +41,7 @@ body {
     width: 100%;
     background-color: #333;
     color: black;
-    display: flex;
+    display: none;
     margin: 0 auto;
     overflow-x: hidden;
     width: 100%;
@@ -154,7 +154,7 @@ button a {
 }
 
 .bodhead {
-    font-size: 109px;
+    font-size: 70px;
     line-height: 1.4em;
     color: black;
 }
@@ -174,14 +174,17 @@ button a {
 
 .token{
     display: flex;
-    justify-content: space-around;
-    align-self: center;
-
+    flex-direction: column;
+    justify-content: center;
 }
 
 .token p{
     font-size: 3rem;
     margin-top: 2rem;
+    text-align: center;
+}
+.token img{
+    margin-top: 5rem;
 }
 .burn{
     display: flex;
@@ -210,6 +213,7 @@ img.mintimg{
     flex-direction: column;
     justify-content: center;
     align-self: center;
+    
 }
 
 img.taximg{
@@ -240,39 +244,87 @@ a:hover {
 }
 
 /* off-screen-menu */
-.off-screen-menu {
-    background-color: rgb(34 37 39 / 52%);
-    height: 100vh;
-    width: 100%;
-    backdrop-filter: blur(10px);
-    max-width: 450px;
-    position: fixed;
-    top: 0;
-    z-index: 6;
-    right: -450px;
+nav {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 3rem;
-    transition: 0.3s ease;
-}
-.off-screen-menu.active {
-    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    transition: all 0.3s ease;
 }
 
-.off-screen-menu li {
-    list-style: none;
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+.hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+ .line1 {
+    width: 50px;
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .line2 {
+        opacity: 0;
+    }
+
+    .line3 {
+        width: 50px;
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
 
 /* nav */
-nav {
-    padding: 0.5rem;
-    display: none;
-    display: none;
-    background-color: rgb(34, 37, 49);
-}
+
 
 /* ham menu */
 .ham-menu {
@@ -294,12 +346,7 @@ nav {
     transition: 0.3s ease;
 }
 
-.contract {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .ham-menu span:nth-child(1) {
     top: 25%;
 }
@@ -546,32 +593,6 @@ button {
 }
 
 /* off-screen-menu */
-.off-screen-menu {
-    background-color: rgb(34 37 39 / 52%);
-    height: 100vh;
-    width: 100%;
-    backdrop-filter: blur(10px);
-    max-width: 450px;
-    position: fixed;
-    top: 0;
-    z-index: 6;
-    right: -450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 3rem;
-    transition: 0.3s ease;
-}
-.off-screen-menu.active {
-    right: 0;
-}
-
-.off-screen-menu
-    li {
-    list-style: none;
-}
 
 /* nav */
     nav {
@@ -1871,7 +1892,7 @@ h1.bold-text {
 
 .content2 {
     display: flex;
-    animation: marquee2 20000ms linear infinite;
+    animation: marquee2 30s linear infinite;
     transition: animation-duration 0.5s ease;
 }
 
@@ -1932,7 +1953,7 @@ h1.bold-text {
 
 .content3 {
     display: flex;
-    animation: marquee3 20s linear infinite;
+    animation: marquee3 30s linear infinite;
     transition: animation-duration 0.5s ease;
 }
 
@@ -2086,7 +2107,7 @@ img#comm {
 .smart-1 span,
 .commerce span,
 .exchange span {
-    color: var(--green-color);
+    color: #2723ff;
     /* display: block; */
     text-align: center;
 }
@@ -2102,7 +2123,7 @@ img#comm {
     font-size: 1.6em;
     text-align: center;
     word-spacing: 10px;
-    border-bottom: 5px solid #88e900;
+    border-bottom: 5px solid #2723ff;
 }
 
 .p2p-info,
@@ -2326,7 +2347,23 @@ img#comm {
             margin-top: -25px;
         }
     }
-
+.navbar{
+ position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    /* max-width: 1440px; */
+    justify-content: flex-start;
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for opacity and transform */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-100%); /* Move the navbar out of view */
+}
     .section-2 .features > div {
         margin-left: 3rem;
     }
@@ -2348,6 +2385,16 @@ img#comm {
     .features h1 {
         font-size: 35px;
     }
+}
+
+
+.contract2 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 #section-1 {
     margin-top: -3em;
@@ -2385,13 +2432,7 @@ img.booden {
     transform: translate(-50%, -50%) rotate(-20deg);
 }
 
-.contract2 {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-}
+
 
 .donate{
     text-align: center;
@@ -2401,13 +2442,26 @@ img.booden {
     display: flex;
     justify-content: center;
 }
-.contract {
+.contract, .contract2 {
     margin-top: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
+}
+
+.contract label, .contract2 label{
+    font-size: 2rem;
+}
+
+
+.contract p, .contract2 p{
+        font-size: 90%;
+        margin-block:2rem;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+    text-align: center;
+
 }
 
 .marquee {
@@ -2477,20 +2531,18 @@ input {
     display: none;
 }
 
-#copyButton {
+#copyButton, #copyButton2 {
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
-    background-color: #007bff4a;
+    background-color: #0056b3;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 700;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 0.602187px 0.843062px -0.5px,
         rgba(0, 0, 0, 0.094) 0px 2.28853px 3.20395px -1px,
         rgba(0, 0, 0, 0.17) 0px 10px 14px -1.5px;
-}
-#copyButton:hover {
-    background-color: #0056b3;
 }
 
 #copyButton.copied {
@@ -2926,4 +2978,48 @@ img.right-img {
         max-width: 698px;
     }
 
+    .bodhead {
+    font-size: 109px;
+    line-height: 1.4em;
+    color: black;
 }
+.navbar{
+ position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    /* max-width: 1440px; */
+    justify-content: flex-start;
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for opacity and transform */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-100%); /* Move the navbar out of view */
+} nav {
+    padding: 0.5rem;
+    display: none;
+    background-color: rgb(34, 37, 49);
+}
+
+.token{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.token p{
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+} .contract2 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}}
