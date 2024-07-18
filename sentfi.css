@@ -133,7 +133,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-right: 25px;
+    /* margin-right: 25px; */
 }
 
 a p{
@@ -204,6 +204,23 @@ img.burnimg{
     align-self: center;
 }
 
+.widget-container {
+                border: 2px solid #2723ff; /* Blue border */
+                border-radius: 20px;
+                padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0.602187px 0.843062px -0.5px, rgba(0, 0, 0, 0.094) 0px 2.28853px 3.20395px -1px, rgba(0, 0, 0, 0.17) 0px 10px 14px -1.5px;
+                background-color: #2723ff; /* White background */
+                max-width: 500px;
+                margin-inline: 3rem;
+            }
+
+            iframe {
+                border: none;
+                border-radius: 15px;
+                width: 100%;
+                height: 450px;
+            }
+
 img.mintimg{
     width: 300px;
 }
@@ -240,7 +257,7 @@ a:visited {
     color: white;
 }
 a:hover {
-    color: #6f86ff;
+    /* color: #6f86ff; */
 }
 
 /* off-screen-menu */
@@ -546,6 +563,8 @@ button {
     justify-content: space-around;
     margin-right: 25px;
 }
+
+
     a p{
     margin-left: 10px;
 
@@ -586,10 +605,10 @@ button {
     list-style: none;
 }
     a:visited {
-    color: white;
+    /* color: white; */
 }
     a:hover {
-    color: #6f86ff;
+    /* color: #6f86ff; */
 }
 
 /* off-screen-menu */
@@ -1215,18 +1234,7 @@ img.exchange {
     object-fit: cover;
     image-rendering: auto;
 }
-    img.booden {
-    position: relative;
-    right: -65%;
-    /* height: 100vh; */
-    width: 100%;
-    z-index: 3;
-    max-width: 50%;
-    margin-top: 4rem;
-    /* margin-bottom: 2rem; */
-    animation: tiltAnimation 5s infinite;
-    animation-fill-mode: forwards;
-}
+    
 
 .sniffers {
     position: absolute;
@@ -1413,8 +1421,9 @@ img.exchange {
 .h2-feat {
     display: flex;
     font-size: 3rem;
+    margin-top: 1rem;
     justify-content: flex-end;
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
 }
     @keyframes flickerAnimation {
     0% {
@@ -1897,14 +1906,14 @@ h1.bold-text {
 }
 
 
-
 .content2 .img-border {
     border-radius: 30px;
     border: 2px solid #000;
     margin: 0 10px;
-    width: 300px; /* Adjust the width to suit your design */
-    height: 300px;
+    width: 200px; /* Adjust the width to suit your design */
+    height: 200px;
 }
+
 
 .content2 img {
     height: 100%;
@@ -1967,8 +1976,8 @@ h1.bold-text {
     border-radius: 30px;
     border: 2px solid #000;
     margin: 0 10px;
-    width: 300px; /* Adjust the width to suit your design */
-    height: 300px;
+    width: 200px; /* Adjust the width to suit your design */
+    height: 200px;
 }
 
 .content3 img {
@@ -2387,7 +2396,7 @@ img#comm {
     }
 
     #section-1{
-    margin-bottom: -10rem;
+    margin-bottom: -13rem;
 }
 }
 
@@ -2395,7 +2404,7 @@ img#comm {
 .contract2 {
     margin-top: 2rem;
     display: flex;
-    flex-direction: row;* {
+    flex-direction: row;*
     color: rgb(0, 0, 0);
     padding: 0;
     margin: 0;
@@ -2934,15 +2943,7 @@ button {
     width: 20px;
     /* margin-left: 20px; */
 }
-    li a {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-right: 25px;
-}
+   
     a p{
     margin-left: 10px;
 
@@ -3612,18 +3613,7 @@ img.exchange {
     object-fit: cover;
     image-rendering: auto;
 }
-    img.booden {
-    position: relative;
-    right: -65%;
-    /* height: 100vh; */
-    width: 100%;
-    z-index: 3;
-    max-width: 50%;
-    margin-top: 4rem;
-    /* margin-bottom: 2rem; */
-    animation: tiltAnimation 5s infinite;
-    animation-fill-mode: forwards;
-}
+    
 
 .sniffers {
     position: absolute;
@@ -3644,16 +3634,7 @@ img.exchange {
     display: flex;
 }
 
-.marquee:before,
-.marquee:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    z-index: 2;
-    pointer-events: none;
-}
+
 
 .marquee:before {
     left: 0;
@@ -3810,8 +3791,9 @@ img.exchange {
 .h2-feat {
     display: flex;
     font-size: 3rem;
+    margin-top: 1rem;
     justify-content: flex-end;
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
 }
     @keyframes flickerAnimation {
     0% {
@@ -4295,13 +4277,7 @@ h1.bold-text {
 
 
 
-.content2 .img-border {
-    border-radius: 30px;
-    border: 2px solid #000;
-    margin: 0 10px;
-    width: 300px; /* Adjust the width to suit your design */
-    height: 300px;
-}
+
 
 .content2 img {
     height: 100%;
@@ -4360,13 +4336,7 @@ h1.bold-text {
     margin-top: 3rem;
 }
 
-.content3 .img-border {
-    border-radius: 30px;
-    border: 2px solid #000;
-    margin: 0 10px;
-    width: 300px; /* Adjust the width to suit your design */
-    height: 300px;
-}
+
 
 .content3 img {
     height: 100%;
@@ -4812,18 +4782,7 @@ img#comm {
     image-rendering: auto;
 }
 
-img.booden {
-    position: relative;
-    right: -65%;
-    /* height: 100vh; */
-    width: 100%;
-    z-index: 3;
-    max-width: 50%;
-    margin-top: 4rem;
-    /* margin-bottom: 2rem; */
-    animation: tiltAnimation 5s infinite;
-    animation-fill-mode: forwards;
-}
+
 
 .sniffers {
     position: absolute;
@@ -4876,16 +4835,7 @@ img.booden {
     display: flex;
 }
 
-.marquee:before,
-.marquee:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    z-index: 2;
-    pointer-events: none;
-}
+
 
 .marquee:before {
     left: 0;
@@ -4936,8 +4886,8 @@ input {
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
-    background-color: #0056b3;
-    color: black;
+    background-color: #2723ff;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
@@ -5039,8 +4989,9 @@ span.sniff4 {
 .h2-feat {
     display: flex;
     font-size: 3rem;
+    margin-top: 1rem;
     justify-content: flex-end;
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
 }
 
 @keyframes flickerAnimation {
@@ -5412,16 +5363,40 @@ img.right-img {
     justify-content: space-around;
 }
 
+.content3 .img-border {
+    border-radius: 30px;
+    border: 2px solid #000;
+    margin: 0 10px;
+    width: 300px; /* Adjust the width to suit your design */
+    height: 300px;
+}
+
+.content2 .img-border {
+    border-radius: 30px;
+    border: 2px solid #000;
+    margin: 0 10px;
+    width: 300px; /* Adjust the width to suit your design */
+    height: 300px;
+}
+
+.content2 .img-border {
+    border-radius: 30px;
+    border: 2px solid #000;
+    margin: 0 10px;
+    width: 300px; /* Adjust the width to suit your design */
+    height: 300px;
+}
+
 .token p{
     font-size: 3rem;
     margin-top: 2rem;
-    text-align: center;* {
+    text-align: center;
     color: rgb(0, 0, 0);
     padding: 0;
     margin: 0;
     /* box-sizing: border-box; */
     font-family: inherit;
-}
+}}
 
 @font-face {
     font-family: "Comic";
@@ -5827,7 +5802,7 @@ button {
     border: 1px solid var(--green-color);
     border-radius: 14px;
     width: 150px;
-    * {
+    
     color: rgb(0, 0, 0);
     padding: 0;
     margin: 0;
@@ -5954,15 +5929,7 @@ button {
     width: 20px;
     /* margin-left: 20px; */
 }
-    li a {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-right: 25px;
-}
+   
     a p{
     margin-left: 10px;
 
@@ -6452,7 +6419,13 @@ img.exchange {
     height: 9rem;
     /* padding: 1rem 1.7rem; */
     }
-
+.content2 .img-border {
+    border-radius: 30px;
+    border: 2px solid #000;
+    margin: 0 10px;
+    width: 300px; /* Adjust the width to suit your design */
+    height: 300px;
+}
     .logo img {
     padding: 0;
     }
@@ -6632,18 +6605,7 @@ img.exchange {
     object-fit: cover;
     image-rendering: auto;
 }
-    img.booden {
-    position: relative;
-    right: -65%;
-    /* height: 100vh; */
-    width: 100%;
-    z-index: 3;
-    max-width: 50%;
-    margin-top: 4rem;
-    /* margin-bottom: 2rem; */
-    animation: tiltAnimation 5s infinite;
-    animation-fill-mode: forwards;
-}
+    
 
 .sniffers {
     position: absolute;
@@ -6664,16 +6626,7 @@ img.exchange {
     display: flex;
 }
 
-.marquee:before,
-.marquee:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    z-index: 2;
-    pointer-events: none;
-}
+
 
 .marquee:before {
     left: 0;
@@ -6827,12 +6780,7 @@ img.exchange {
 
 
 
-.h2-feat {
-    display: flex;
-    font-size: 3rem;
-    justify-content: flex-end;
-    margin-right: 6rem;
-}
+
     @keyframes flickerAnimation {
     0% {
         opacity: 1;
@@ -7315,13 +7263,7 @@ h1.bold-text {
 
 
 
-.content2 .img-border {
-    border-radius: 30px;
-    border: 2px solid #000;
-    margin: 0 10px;
-    width: 300px; /* Adjust the width to suit your design */
-    height: 300px;
-}
+
 
 .content2 img {
     height: 100%;
@@ -7380,13 +7322,7 @@ h1.bold-text {
     margin-top: 3rem;
 }
 
-.content3 .img-border {
-    border-radius: 30px;
-    border: 2px solid #000;
-    margin: 0 10px;
-    width: 300px; /* Adjust the width to suit your design */
-    height: 300px;
-}
+
 
 .content3 img {
     height: 100%;
@@ -7622,6 +7558,14 @@ img#comm {
         /* padding: 1rem 1.7rem; */
     }
 
+    .content3 .img-border {
+    border-radius: 30px;
+    border: 2px solid #000;
+    margin: 0 10px;
+    width: 300px; /* Adjust the width to suit your design */
+    height: 300px;
+}
+
     .logo img {
         padding: 0;
     }
@@ -7841,6 +7785,20 @@ img.booden {
     animation-fill-mode: forwards;
 }
 
+img.booden2{
+   
+    position: relative;
+    right: -55%;
+    /* height: 100vh; */
+    width: 100%;
+    z-index: 3;
+    max-width: 60%;
+    margin-top: 4rem;
+    /* margin-bottom: 2rem; */
+    animation: tiltAnimation 5s infinite;
+    animation-fill-mode: forwards;
+}
+
 .sniffers {
     position: absolute;
     top: 57%;
@@ -7892,16 +7850,7 @@ img.booden {
     display: flex;
 }
 
-.marquee:before,
-.marquee:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    z-index: 2;
-    pointer-events: none;
-}
+
 
 .marquee:before {
     left: 0;
@@ -8055,8 +8004,9 @@ span.sniff4 {
 .h2-feat {
     display: flex;
     font-size: 3rem;
+    margin-top: 1rem;
     justify-content: flex-end;
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
 }
 
 @keyframes flickerAnimation {
@@ -8479,18 +8429,7 @@ img.right-img {
     image-rendering: auto;
 }
 
-img.booden {
-    position: relative;
-    right: -65%;
-    /* height: 100vh; */
-    width: 100%;
-    z-index: 3;
-    max-width: 50%;
-    margin-top: 4rem;
-    /* margin-bottom: 2rem; */
-    animation: tiltAnimation 5s infinite;
-    animation-fill-mode: forwards;
-}
+
 
 .sniffers {
     position: absolute;
@@ -8543,16 +8482,7 @@ img.booden {
     display: flex;
 }
 
-.marquee:before,
-.marquee:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    z-index: 2;
-    pointer-events: none;
-}
+
 
 .marquee:before {
     left: 0;
@@ -8706,8 +8636,9 @@ span.sniff4 {
 .h2-feat {
     display: flex;
     font-size: 3rem;
+    margin-top: 1rem;
     justify-content: flex-end;
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
 }
 
 @keyframes flickerAnimation {
@@ -9082,13 +9013,13 @@ img.right-img {
 .token p{
     font-size: 3rem;
     margin-top: 2rem;
-    text-align: center;* {
+    text-align: center;
     color: rgb(0, 0, 0);
     padding: 0;
     margin: 0;
     /* box-sizing: border-box; */
     font-family: inherit;
-}
+}}
 
 @font-face {
     font-family: "Comic";
@@ -9217,12 +9148,12 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-right: 25px;
+    /* margin-right: 25px; */
 }
 
 a p{
+    color: #4c4c4c;
     margin-left: 10px;
-
 }
 button {
     background-color: black;
@@ -9324,7 +9255,7 @@ a:visited {
     color: white;
 }
 a:hover {
-    color: #6f86ff;
+    /* color: #6f86ff; */
 }
 
 /* off-screen-menu */
@@ -9363,7 +9294,7 @@ nav {
 }
 
 .nav-links a {
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
@@ -9490,8 +9421,8 @@ header {
 
 button {
     font-size: 11.4px;
-    background-color: transparent;
-    border: 1px solid var(--green-color);
+    background-color: #2723ff;
+    border: 1px solid #4c4c4c;
     border-radius: 14px;
     width: 150px;
     * {
@@ -9506,7 +9437,8 @@ button {
     src: url(Qdbettercomicsans-jEEeG.ttf);
 }
 
-:root {
+:
+    root {
     --green-color: #88e900;
     --font-family: Comic;
 }
@@ -9621,15 +9553,6 @@ button {
     width: 20px;
     /* margin-left: 20px; */
 }
-    li a {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-right: 25px;
-}
     a p{
     margin-left: 10px;
 
@@ -9670,11 +9593,9 @@ button {
     list-style: none;
 }
     a:visited {
-    color: white;
-}
+    /* color: white; */}
     a:hover {
-    color: #6f86ff;
-}
+    /* color: #6f86ff; */}
 
 /* off-screen-menu */
 
@@ -10283,6 +10204,14 @@ img.exchange {
     .features h1 {
     font-size: 35px;
     }
+
+    .h2-feat {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 1rem;
+    justify-content: flex-end;
+    /* margin-right: 6rem; */
+}
 }
 
 #section-1 {
@@ -10299,18 +10228,7 @@ img.exchange {
     object-fit: cover;
     image-rendering: auto;
 }
-    img.booden {
-    position: relative;
-    right: -65%;
-    /* height: 100vh; */
-    width: 100%;
-    z-index: 3;
-    max-width: 50%;
-    margin-top: 4rem;
-    /* margin-bottom: 2rem; */
-    animation: tiltAnimation 5s infinite;
-    animation-fill-mode: forwards;
-}
+    
 
 .sniffers {
     position: absolute;
@@ -10331,7 +10249,8 @@ img.exchange {
     display: flex;
 }
 
-.marquee:before,
+.marquee:
+    before,
 .marquee:after {
     content: "";
     position: absolute;
@@ -10342,12 +10261,14 @@ img.exchange {
     pointer-events: none;
 }
 
-.marquee:before {
+.marquee:
+    before {
     left: 0;
     background: linear-gradient(to right, rgb(255 255 255), rgb(55 50 50 / 0%));
 }
 
-.marquee:after {
+.marquee:
+    after {
     right: 0;
     background: linear-gradient(
         to right,
@@ -10362,27 +10283,26 @@ img.exchange {
     transition: animation-duration 0.5s ease; /* Smooth transition for animation duration */
 }
 
-.marquee-content span {
+.marquee-content
+    span {
     padding: 0 1rem;
     font-size: 2rem;
     color: #333;
     white-space: nowrap;
 }
 
-.marquee-content:hover {
+.marquee-content:
+    hover {
     animation-duration: 40s; /* Slow down the animation when hovered */
 }
-
-
-@keyframes marquee {
+    @keyframes marquee {
     0% {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+    transform: translateX(-100%);
     }
 }
-
     input {
     width: 100%;
     padding: 10px;
@@ -10405,7 +10325,8 @@ img.exchange {
         rgba(0, 0, 0, 0.094) 0px 2.28853px 3.20395px -1px,
         rgba(0, 0, 0, 0.17) 0px 10px 14px -1.5px;
 }
-#copyButton:hover {
+#copyButton:
+    hover {
     background-color: #0056b3;
 }
 
@@ -10497,8 +10418,9 @@ img.exchange {
 .h2-feat {
     display: flex;
     font-size: 3rem;
+    margin-top: 1rem;
     justify-content: flex-end;
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
 }
     @keyframes flickerAnimation {
     0% {
@@ -10559,7 +10481,8 @@ img.exchange {
     position: relative;
 }
 
-.section-2::before,
+.section-2::
+    before,
 .section-2::after {
     content: "";
     position: absolute;
@@ -10568,7 +10491,8 @@ img.exchange {
     border: 2px solid #a45dff;
 }
 
-.section-2::before {
+.section-2::
+    before {
     right: 0;
     left: 3%;
     border-right: none;
@@ -10576,7 +10500,8 @@ img.exchange {
     border-bottom: none;
 }
 
-.section-2::after {
+.section-2::
+    after {
     right: 3%;
     border-left: none;
     border-top: none;
@@ -10822,6 +10747,8 @@ img.right-img {
     .section-2::
     after,}
     height: 37.88px;
+    color: white !important;
+    white-space: nowrap;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 0.602187px 0.843062px -0.5px, rgba(0, 0, 0, 0.094) 0px 2.28853px 3.20395px -1px, rgba(0, 0, 0, 0.17) 0px 10px 14px -1.5px;
 }
 
@@ -10959,7 +10886,7 @@ h1.bold-text {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 50px;
+    width: 10px;
     z-index: 2;
     pointer-events: none;
 }
@@ -10982,13 +10909,7 @@ h1.bold-text {
 
 
 
-.content2 .img-border {
-    border-radius: 30px;
-    border: 2px solid #000;
-    margin: 0 10px;
-    width: 300px; /* Adjust the width to suit your design */
-    height: 300px;
-}
+
 
 .content2 img {
     height: 100%;
@@ -11047,13 +10968,7 @@ h1.bold-text {
     margin-top: 3rem;
 }
 
-.content3 .img-border {
-    border-radius: 30px;
-    border: 2px solid #000;
-    margin: 0 10px;
-    width: 300px; /* Adjust the width to suit your design */
-    height: 300px;
-}
+
 
 .content3 img {
     height: 100%;
@@ -11310,6 +11225,12 @@ img#comm {
         margin: 0 auto;
     }
 
+    .h2-feat {
+    display: flex;
+    font-size: 3rem;
+    justify-content: flex-end;
+    margin-right: 6rem;
+}
     .purple-icon img {
         width: 7rem;
         top: 4rem;
@@ -11493,6 +11414,7 @@ img#comm {
     object-position: center;
     object-fit: cover;
     image-rendering: auto;
+    margin-bottom: -6rem;
 }
 
 img.booden {
@@ -11507,7 +11429,18 @@ img.booden {
     animation: tiltAnimation 5s infinite;
     animation-fill-mode: forwards;
 }
-
+img.booden2 {
+    position: absolute;
+    /* height: 100vh; */
+    width: 100%;
+    left: -5%;
+    z-index: 3;
+    max-width: 60%;
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+    animation: tiltAnimation 5s infinite;
+    animation-fill-mode: forwards;
+}
 .sniffers {
     position: absolute;
     top: 57%;
@@ -11540,12 +11473,11 @@ img.booden {
 
 
 .contract p, .contract2 p{
-        font-size: 90%;
+        font-size: 60%;
         margin-block:2rem;
         font-weight: 600;
         letter-spacing: 0.8px;
-    text-align: center;
-
+        text-align: center;
 }
 
 .marquee {
@@ -11559,16 +11491,7 @@ img.booden {
     display: flex;
 }
 
-.marquee:before,
-.marquee:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    z-index: 2;
-    pointer-events: none;
-}
+
 
 .marquee:before {
     left: 0;
@@ -11619,7 +11542,7 @@ input {
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
-    background-color: #0056b3;
+    background-color: #2723ff;
     color: black;
     font-size: 20px;
     font-weight: 700;
@@ -11722,8 +11645,9 @@ span.sniff4 {
 .h2-feat {
     display: flex;
     font-size: 3rem;
+    margin-top: 1rem;
     justify-content: flex-end;
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
 }
 
 @keyframes flickerAnimation {
@@ -11858,6 +11782,7 @@ img.right-img {
         border-radius: 1rem;
         font-size: 80%;
         font-weight: 800;
+        background: #2723ff;
     }
 
     h1.bold-text {
@@ -11965,6 +11890,14 @@ img.right-img {
         width: 100%;
         margin-top: -16.5rem;
     }
+
+    .h2-feat {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 1rem;
+    justify-content: flex-end;
+    /* margin-right: 6rem; */
+}
 
     div .feat3 {
         /* background-color: blue; */
@@ -12099,7 +12032,8 @@ img.right-img {
     font-size: 3rem;
     margin-top: 2rem;
     text-align: center;
-} .contract2 {
+}
+ .contract2 {
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
@@ -12110,10 +12044,10 @@ img.right-img {
 #section-1{
     margin-bottom: -26rem;
 }
-}
 
 
-} .contract2 {
+
+ .contract2 {
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
@@ -12128,11 +12062,16 @@ img.right-img {
 .sniffers{
     display: block;
 }
-}
+.h2-feat {
+    display: flex;
+    font-size: 3rem;
+    justify-content: flex-end; 
+    margin-right: 6rem;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 
 #section-1{
-    margin-bottom: -9rem;
-}
+    margin-bottom: -27rem;
+}}
 
 .sniffers{
     display: none;
